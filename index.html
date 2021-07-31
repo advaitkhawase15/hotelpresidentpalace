@@ -5,26 +5,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+
+    <!-- CSS stylesheet -->
     <link rel="stylesheet" href="hotel.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
     <title>Hotel President Palace | Cheap hotel in itarsi</title>
 </head>
 
 <body>
-    <div class="nav">
-        <div class="nav_heading">
-            Hotel President Palace
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #c1121f;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Hotel President Palace</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#Home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Service">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Location">Location</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contact" tabindex="-1" aria-disabled="true">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="nav_quicklinks">
-            <div class=""><a href="index.html">Home</a></div>
-            <div class=""><a href="#services">Services</a></div>
-            <div class=""><a href="#location">Location</a></div>
-            <div class=""><a href="#contact">Contact</a></div>
-        </div>
-    </div>
-    <div class="main">
+    </nav>
+    <div id="Home" class="main">
         <div class="main_banner">
 
         </div>
@@ -48,7 +74,7 @@
             </div>
         </div>
     </div>
-    <div id="services" class="services">
+    <div id="Service" class="services">
         <div class="services_cont">
             <img src="outline_flight_black_24dp.png" alt="airplane"><br>
             air ticket
@@ -63,20 +89,64 @@
         </div>
     </div>
     <div class="room">
-        <div class="room_cont">
-            President suit
+        <div class="room_cont" id="PS">
+            <img src="Presidential_suit/cover_ps.jpg" alt="President suit">
+            <div class="room_feature">
+                <h4>President suit</h4>
+                <div>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                    <li>Fusce pellentesque orci at posuere maximus.</li>
+                    <li>Nullam maximus sem vel mattis egestas.</li>
+                </div>
+                <div class="room_button">
+                    <a href="President_suit.html"><button class="botton">Details</button></a>
+                </div>
+            </div>
         </div>
-        <div class="room_cont">
-            AC delux
+        <div class="room_cont" id="ASD">
+            <img src="AC_super_delux/cover_ASD.jpg" alt="AC super delux">
+            <div class="room_feature">
+                <h4>AC super delux</h4>
+                <div>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                    <li>Fusce pellentesque orci at posuere maximus.</li>
+                    <li>Nullam maximus sem vel mattis egestas.</li>
+                </div>
+                <div class="room_button">
+                    <a href="AC_super_delux.html"><button class="botton">Details</button></a>
+                </div>
+            </div>
         </div>
-        <div class="room_cont">
-            Cooler super delux
+        <div class="room_cont" id="AD">
+            <img src="AC_delux/cover_AD.jpg" alt="AC delux">
+            <div class="room_feature">
+                <h4>AC delux</h4>
+                <div>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                    <li>Fusce pellentesque orci at posuere maximus.</li>
+                    <li>Nullam maximus sem vel mattis egestas.</li>
+                </div>
+                <div class="room_button">
+                    <a href="AC_delux.html"><button class="botton">Details</button></a>
+                </div>
+            </div>
         </div>
-        <div class="room_cont">
-            Cooler delux
+        <div class="room_cont" id="CD">
+            <img src="Presidential_suit/cover_ps.jpg" alt="Cooler deluxt">
+            <div class="room_feature">
+                <h4>Cooler delux</h4>
+                <div>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                    <li>Fusce pellentesque orci at posuere maximus.</li>
+                    <li>Nullam maximus sem vel mattis egestas.</li>
+                </div>
+                <div class="room_button">
+                    <a href="Cooler_delux.html"><button class="botton">Details</button></a>
+                </div>
+            </div>
         </div>
     </div>
-    <div id="location">
+    <div id="Location">
         <div class="google_location">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.1945952015744!2d77.76561851479279!3d22.60920738516398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397ddd04173c458f%3A0x915f89784a4ca16c!2sHotel%20President%20Palace!5e0!3m2!1sen!2sin!4v1627027462114!5m2!1sen!2sin"
@@ -89,7 +159,7 @@
             </p>
         </div>
     </div>
-    <div id="contact" class="contact_us">
+    <div id="Contact" class="contact_us">
         <p>
             <span class="bold">Contact us:</span><br><br>
             Mob: 9425040480, 8435649789 <br><br>
