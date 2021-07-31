@@ -81,9 +81,10 @@ html {
 	height: 500px;
 	background-color: #669bbc;
 	display: flex;
-    align-items: center;
+	align-items: center;
 }
-.main_content_2 p{
+
+.main_content_2 p {
 	padding: 5%;
 }
 
@@ -91,7 +92,7 @@ html {
 
 .services {
 	width: 100%;
-	height: 400px;
+	height: 250px;
 	background-color: #003049;
 	display: flex;
 	justify-content: space-evenly;
@@ -103,8 +104,8 @@ html {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	height: 300px;
-	width: 30%;
+	height: 150px;
+	width: 20%;
 	background-color: #669bbc;
 }
 
@@ -128,6 +129,7 @@ html {
 
 .room {
 	width: 100%;
+    padding-top: 3%;
 	/* height: 400px; */
 	background-color: #fdf0d5;
 	display: flex;
@@ -139,59 +141,65 @@ html {
 .room_cont {
 	display: flex;
 	width: 45%;
-    height: 40vh;
-    background-color: #669bbc;
-    margin: 2% 0;
+	height: 40vh;
+	background-color: #669bbc;
+	margin: 2% 0;
 }
+
 /* #PS{
 	background-image: url("Presidential_suit/cover_ps.jpg");
 	background-size: cover;
 } */
-.room_cont img{
+
+.room_cont img {
 	height: -webkit-fill-available;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.room_feature{
+
+.room_feature {
 	display: flex;
-    flex-flow: column;
-    justify-content: space-between;
+	flex-flow: column;
+	justify-content: space-between;
 	margin: 2%;
 	width: -webkit-fill-available;
 	height: -webkit-fill-available;
 }
+
 .botton {
-    /* background: #3498db; */
-    background-image: -webkit-linear-gradient(top, #c1121f, #c1121f);
-    background-image: -moz-linear-gradient(top, #c1121f, #c1121f);
-    background-image: -ms-linear-gradient(top, #c1121f, #c1121f);
-    background-image: -o-linear-gradient(top, #c1121f, #c1121f);
-    background-image: linear-gradient(to bottom, #c1121f, #c1121f);
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
-    border-radius: 28px;
-    font-family: Arial;
-    color: #ffffff;
-    font-size: 15px;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-    border: none;
-  }
-  
-  .botton:hover {
-    /* background: #3cb0fd; */
-    background-image: -webkit-linear-gradient(top, #780000, #780000);
-    background-image: -moz-linear-gradient(top, #780000, #780000);
-    background-image: -ms-linear-gradient(top, #780000, #780000);
-    background-image: -o-linear-gradient(top, #780000, #780000);
-    background-image: linear-gradient(to bottom, #780000, #780000);
-    text-decoration: none;
-  }
-  .room_button{
+	/* background: #3498db; */
+	background-image: -webkit-linear-gradient(top, #c1121f, #c1121f);
+	background-image: -moz-linear-gradient(top, #c1121f, #c1121f);
+	background-image: -ms-linear-gradient(top, #c1121f, #c1121f);
+	background-image: -o-linear-gradient(top, #c1121f, #c1121f);
+	background-image: linear-gradient(to bottom, #c1121f, #c1121f);
+	-webkit-border-radius: 28;
+	-moz-border-radius: 28;
+	border-radius: 28px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 15px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	border: none;
+}
+
+.botton:hover {
+	/* background: #3cb0fd; */
+	background-image: -webkit-linear-gradient(top, #780000, #780000);
+	background-image: -moz-linear-gradient(top, #780000, #780000);
+	background-image: -ms-linear-gradient(top, #780000, #780000);
+	background-image: -o-linear-gradient(top, #780000, #780000);
+	background-image: linear-gradient(to bottom, #780000, #780000);
+	text-decoration: none;
+}
+
+.room_button {
 	text-align: center;
-  }
+}
 
 /* location */
 
-#location {
+#Location {
 	background-color: #fdf0d5;
 	height: 80vh;
 	display: flex;
@@ -251,7 +259,7 @@ html {
 	padding: 5%;
 }
 
-.quick_link a, .cuconut a{
+.quick_link a, .cuconut a {
 	text-decoration: none;
 	color: inherit;
 }
@@ -298,7 +306,7 @@ html {
 		height: 65vh;
 		flex-direction: column;
 	}
-	.room_cont img{
+	.room_cont img {
 		width: 100%;
 		height: auto;
 	}
@@ -308,11 +316,11 @@ html {
 	.address {
 		width: 90%;
 	}
-	#footer{
+	#footer {
 		flex-direction: column;
-    	align-items: end;
+		align-items: end;
 	}
-	#footer div{	
+	#footer div {
 		width: auto;
 		border: none;
 		margin: 2%;
