@@ -85,10 +85,12 @@ a {
 }
 .room_photo{
     width: 20rem;
+    margin-bottom: 2%;
 }
 .room_features{
     width: 50rem;
     background-color: #669bbc;
+    margin-bottom: 2%;
 }
 .room_features{
     padding: 5%;
@@ -131,5 +133,9 @@ a {
     }
     .room_features{
         margin-top: 5%;
+    }
+    .room_photo{
+        width: 100%;
+        text-align: center;
     }
 }
