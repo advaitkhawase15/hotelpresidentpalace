@@ -55,6 +55,7 @@ html {
 	width: 90%;
 	height: 120px;
 	background-color: #003049;
+	color: white;
 }
 
 .main_content {
@@ -81,7 +82,28 @@ html {
 	height: 500px;
 	background-color: #669bbc;
 	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
 	align-items: center;
+	color: white;
+	font-size: 30px;
+}
+
+.book_a_button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	width: 250px;
+	height: 60px;
+	border: 1px solid black ;
+}
+
+.book_a_button:hover{
+	font-weight: 100;
+	background-color: #0a0702;
+	color: white;
+	transition: 120ms ease-in-out;
 }
 
 .main_content_2 p {
