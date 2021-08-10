@@ -269,10 +269,8 @@ html {
 	width: -moz-available;
 }
 
-.border {
-	border-right-width: 1px;
-	border-right-color: white;
-	border-right-style: dashed;
+.footer_border {
+	border-right: 1px white dashed;
 }
 
 .footer_contact, .quick_link, .cuconut {
@@ -287,7 +285,7 @@ html {
 }
 
 .cuconut img {
-	width: 200px;
+	width: 70%;
 }
 
 .cuconut p {
@@ -346,5 +344,8 @@ html {
 		width: auto;
 		border: none;
 		margin: 2%;
+	}
+	.cuconut img {
+		width: 90%;
 	}
 }
